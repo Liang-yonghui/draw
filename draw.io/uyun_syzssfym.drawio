@@ -1,9 +1,109 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.2">
   <diagram name="第 1 页" id="HmdMASguL77469A1sPRX">
-    <mxGraphModel>
+    <mxGraphModel dx="938" dy="610" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="cikoMtyAJ3VD88VYgf8W-14" value="首页展示三方页面" style="shape=table;childLayout=tableLayout;startSize=40;collapsible=0;recursiveResize=0;expand=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="50" y="40" width="907" height="570" as="geometry" />
+        </mxCell>
+        <mxCell id="cikoMtyAJ3VD88VYgf8W-15" value="普通用户" style="shape=tableRow;horizontal=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;strokeColor=inherit;bottom=0;right=0;dropTarget=0;fontStyle=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;startSize=40;collapsible=0;recursiveResize=0;expand=0;fontSize=16;" vertex="1" parent="cikoMtyAJ3VD88VYgf8W-14">
+          <mxGeometry y="40" width="907" height="265" as="geometry" />
+        </mxCell>
+        <mxCell id="cikoMtyAJ3VD88VYgf8W-16" value="门户首页" style="swimlane;swimlaneHead=0;swimlaneBody=0;fontStyle=0;strokeColor=inherit;connectable=0;fillColor=none;startSize=40;collapsible=0;recursiveResize=0;expand=0;fontSize=16;" vertex="1" parent="cikoMtyAJ3VD88VYgf8W-15">
+          <mxGeometry x="40" width="183" height="265" as="geometry">
+            <mxRectangle width="183" height="265" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cikoMtyAJ3VD88VYgf8W-48" value="登录、注册" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="cikoMtyAJ3VD88VYgf8W-16">
+          <mxGeometry x="36.5" y="170" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="cikoMtyAJ3VD88VYgf8W-17" value="视图管理" style="swimlane;swimlaneHead=0;swimlaneBody=0;fontStyle=0;strokeColor=inherit;connectable=0;fillColor=none;startSize=40;collapsible=0;recursiveResize=0;expand=0;fontSize=16;" vertex="1" parent="cikoMtyAJ3VD88VYgf8W-15">
+          <mxGeometry x="223" width="230" height="265" as="geometry">
+            <mxRectangle width="230" height="265" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cikoMtyAJ3VD88VYgf8W-18" value="视图编辑器" style="swimlane;swimlaneHead=0;swimlaneBody=0;fontStyle=0;strokeColor=inherit;connectable=0;fillColor=none;startSize=40;collapsible=0;recursiveResize=0;expand=0;fontSize=16;" vertex="1" parent="cikoMtyAJ3VD88VYgf8W-15">
+          <mxGeometry x="453" width="227" height="265" as="geometry">
+            <mxRectangle width="227" height="265" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cikoMtyAJ3VD88VYgf8W-46" value="三方系统" style="swimlane;swimlaneHead=0;swimlaneBody=0;fontStyle=0;strokeColor=inherit;connectable=0;fillColor=none;startSize=40;collapsible=0;recursiveResize=0;expand=0;fontSize=16;" vertex="1" parent="cikoMtyAJ3VD88VYgf8W-15">
+          <mxGeometry x="680" width="227" height="265" as="geometry">
+            <mxRectangle width="227" height="265" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cikoMtyAJ3VD88VYgf8W-50" value="访问三方系统" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="cikoMtyAJ3VD88VYgf8W-46">
+          <mxGeometry x="50" y="170" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="cikoMtyAJ3VD88VYgf8W-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="cikoMtyAJ3VD88VYgf8W-15" source="cikoMtyAJ3VD88VYgf8W-48" target="cikoMtyAJ3VD88VYgf8W-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cikoMtyAJ3VD88VYgf8W-19" value="管理员" style="shape=tableRow;horizontal=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;strokeColor=inherit;bottom=0;right=0;dropTarget=0;fontStyle=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;startSize=40;collapsible=0;recursiveResize=0;expand=0;fontSize=16;" vertex="1" parent="cikoMtyAJ3VD88VYgf8W-14">
+          <mxGeometry y="305" width="907" height="265" as="geometry" />
+        </mxCell>
+        <mxCell id="cikoMtyAJ3VD88VYgf8W-20" value="" style="swimlane;swimlaneHead=0;swimlaneBody=0;fontStyle=0;connectable=0;strokeColor=inherit;fillColor=none;startSize=0;collapsible=0;recursiveResize=0;expand=0;fontSize=16;" vertex="1" parent="cikoMtyAJ3VD88VYgf8W-19">
+          <mxGeometry x="40" width="183" height="265" as="geometry">
+            <mxRectangle width="183" height="265" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cikoMtyAJ3VD88VYgf8W-21" value="" style="swimlane;swimlaneHead=0;swimlaneBody=0;fontStyle=0;connectable=0;strokeColor=inherit;fillColor=none;startSize=0;collapsible=0;recursiveResize=0;expand=0;fontSize=16;" vertex="1" parent="cikoMtyAJ3VD88VYgf8W-19">
+          <mxGeometry x="223" width="230" height="265" as="geometry">
+            <mxRectangle width="230" height="265" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cikoMtyAJ3VD88VYgf8W-22" value="" style="swimlane;swimlaneHead=0;swimlaneBody=0;fontStyle=0;connectable=0;strokeColor=inherit;fillColor=none;startSize=0;collapsible=0;recursiveResize=0;expand=0;fontSize=16;" vertex="1" parent="cikoMtyAJ3VD88VYgf8W-19">
+          <mxGeometry x="453" width="227" height="265" as="geometry">
+            <mxRectangle width="227" height="265" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cikoMtyAJ3VD88VYgf8W-45" value="" style="group" vertex="1" connectable="0" parent="cikoMtyAJ3VD88VYgf8W-22">
+          <mxGeometry x="-213" y="15" width="406" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="cikoMtyAJ3VD88VYgf8W-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="cikoMtyAJ3VD88VYgf8W-45" source="cikoMtyAJ3VD88VYgf8W-30" target="cikoMtyAJ3VD88VYgf8W-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cikoMtyAJ3VD88VYgf8W-30" value="开始" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="cikoMtyAJ3VD88VYgf8W-45">
+          <mxGeometry y="63.33333333333333" width="82.57627118644068" height="47.5" as="geometry" />
+        </mxCell>
+        <mxCell id="cikoMtyAJ3VD88VYgf8W-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="cikoMtyAJ3VD88VYgf8W-45" source="cikoMtyAJ3VD88VYgf8W-31" target="cikoMtyAJ3VD88VYgf8W-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cikoMtyAJ3VD88VYgf8W-31" value="创建视图" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="cikoMtyAJ3VD88VYgf8W-45">
+          <mxGeometry y="142.5" width="82.57627118644068" height="47.5" as="geometry" />
+        </mxCell>
+        <mxCell id="cikoMtyAJ3VD88VYgf8W-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="cikoMtyAJ3VD88VYgf8W-45" source="cikoMtyAJ3VD88VYgf8W-32" target="cikoMtyAJ3VD88VYgf8W-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cikoMtyAJ3VD88VYgf8W-32" value="视图授权" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="cikoMtyAJ3VD88VYgf8W-45">
+          <mxGeometry x="116.98305084745763" y="142.5" width="82.57627118644068" height="47.5" as="geometry" />
+        </mxCell>
+        <mxCell id="cikoMtyAJ3VD88VYgf8W-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="cikoMtyAJ3VD88VYgf8W-45" source="cikoMtyAJ3VD88VYgf8W-33" target="cikoMtyAJ3VD88VYgf8W-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cikoMtyAJ3VD88VYgf8W-33" value="拖拽外部页面组件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="cikoMtyAJ3VD88VYgf8W-45">
+          <mxGeometry x="220.20338983050846" y="142.5" width="82.57627118644068" height="47.5" as="geometry" />
+        </mxCell>
+        <mxCell id="cikoMtyAJ3VD88VYgf8W-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="cikoMtyAJ3VD88VYgf8W-45" source="cikoMtyAJ3VD88VYgf8W-34" target="cikoMtyAJ3VD88VYgf8W-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cikoMtyAJ3VD88VYgf8W-34" value="组件配置" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="cikoMtyAJ3VD88VYgf8W-45">
+          <mxGeometry x="323.4237288135593" y="142.5" width="82.57627118644068" height="47.5" as="geometry" />
+        </mxCell>
+        <mxCell id="cikoMtyAJ3VD88VYgf8W-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="cikoMtyAJ3VD88VYgf8W-45" source="cikoMtyAJ3VD88VYgf8W-35" target="cikoMtyAJ3VD88VYgf8W-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cikoMtyAJ3VD88VYgf8W-35" value="点击保存" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="cikoMtyAJ3VD88VYgf8W-45">
+          <mxGeometry x="323.4237288135593" y="71.25" width="82.57627118644068" height="47.5" as="geometry" />
+        </mxCell>
+        <mxCell id="cikoMtyAJ3VD88VYgf8W-37" value="自定义视图完成" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="cikoMtyAJ3VD88VYgf8W-45">
+          <mxGeometry x="323.4237288135593" width="82.57627118644068" height="47.5" as="geometry" />
+        </mxCell>
+        <mxCell id="cikoMtyAJ3VD88VYgf8W-47" style="swimlane;swimlaneHead=0;swimlaneBody=0;fontStyle=0;connectable=0;strokeColor=inherit;fillColor=none;startSize=0;collapsible=0;recursiveResize=0;expand=0;fontSize=16;" vertex="1" parent="cikoMtyAJ3VD88VYgf8W-19">
+          <mxGeometry x="680" width="227" height="265" as="geometry">
+            <mxRectangle width="227" height="265" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
